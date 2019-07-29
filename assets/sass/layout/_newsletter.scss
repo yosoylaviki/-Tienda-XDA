@@ -1,8 +1,12 @@
-.newsletter{
+/*.newsletter{
+  grid-column: 1/-1;
+  grid-row: 2/3;
   background-color: $smoky-black;
 }
+*/
 
-.form-email{
-    display: grid;
-    grid-template-columns: 200px 1fr;
+.newsletter{
+  border: 1px solid black;
+  background-color: yellow;
+  grid-column: span 1;
 }

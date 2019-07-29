@@ -1,6 +1,6 @@
 h1, h3{
   font-family: $old-standard;
-  font-weight: $black;
+  font-weight: $smoky-black;
 }
 
 p{
@@ -10,7 +10,7 @@ p{
 
 h3{
   font-family: $old-standard;
-  font-weight: $black;
+  font-weight: $smoky-black;
   color: $white;
 }
 
@@ -18,4 +18,10 @@ h5{
   font-family: $old-standard;
   font-weight: $regular;
   color: $white;
+}
+
+h6{
+  font-family: $old-standard;
+  font-weight: $regular;
+  color: $smoky-black;
 }

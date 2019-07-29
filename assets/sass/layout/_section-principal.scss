@@ -1,4 +1,18 @@
-
-.section-principal img{
-   padding-top: 10%;
+/*.section-principal{
+  grid-column: 1/-1;
+  grid-row: 2/3;
 }
+
+  .section-principal img{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }*/
+
+  .section-principal{
+    border: 1px solid black;
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }

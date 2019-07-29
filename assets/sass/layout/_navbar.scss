@@ -1,6 +1,9 @@
+/*  .navegador{
+    grid-column: 1/-1;
+  }*/
 
-.navbar-brand img{
-position: absolute;
-top: 0;
-left: 0;
-}
+  .navegador{
+    border: 1px solid $smoky-black;
+    background-color: yellow;
+    grid-column: span 2;
+  }
