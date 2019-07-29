@@ -5,8 +5,21 @@
 }
 */
 
-.newsletter{
-  border: 1px solid black;
-  background-color: yellow;
+.background{
+  background-color: $smoky-black;
   grid-column: span 1;
+  width: 80%;
+  height: 130%;
+}
+
+.background h3{
+  padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 768px){
+  .newsletter{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
 }

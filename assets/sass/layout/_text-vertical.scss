@@ -1,8 +1,13 @@
-/*@media only screen and (min-width:320px){
-}*/
 
 .text-vertical{
-  border: 1px solid black;
-  background-color: yellow;
   grid-column: span 1;
+  float: right;
+
+}
+
+.text-vertical h3{
+  color: $smoky-black;
+  writing-mode: vertical-rl;
+  position: relative;
+  float: right;
 }
